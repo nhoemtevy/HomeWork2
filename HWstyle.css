@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+body{
+    background-color: rgb(218, 219, 220);
+    height: 100vh;
+    width: 100%;
+}
+.content{
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.side-bar{
+    width: 35%;
+    display: inline-block;
+    border-radius: 20px;
+}
+.side-bar img{
+    width: 430px;
+    height: 460px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 15%;
+    border: 2px solid skyblue;
+}
+.container{
+    border-radius: 30px;
+    margin-left: 165px;
+    margin-top:1%;
+    display: inline-block;
+    vertical-align: top;
+}
+h1{
+    display: flex;
+    color: rgb(23, 158, 211);
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: bolder;
+}
+table{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+}
+.month-table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.month-table tr td{
+    padding: 7px;
+}
+.month-table thead{
+    font-size: 17px;
+    font-weight: bold;
+    color: skyblue;
+}
+.month-table tbody tr{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+tbody tr td{
+    font-family: cursive;
+    font-size: large;
+}
+.weekend{
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+}
+.noneday{
+    background-color: rgb(242, 248, 250);
+    color: rgb(136, 136, 136);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.month-table tbody .onday{
+    background-color: rgb(242, 248, 250);
+    color: rgb(23, 158, 211);
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.month-table tbody .onday:hover{
+    background-color: skyblue;
+    color: blue;
+    box-shadow: 2px 5px 3px 1px rgba(40, 40, 41, 0.2);
+}
+.month-table tbody .week{
+    background-color: rgb(242, 248, 250);
+    color: red;
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50%;
+}
+.month-table tbody .onday .week .noneday{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50%;
+}
+.month-table tbody .week:hover{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    border: 2px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 5px 3px 1px rgba(28, 28, 29, 0.2);
+}
+
+
+
